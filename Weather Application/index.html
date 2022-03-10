@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Weather Alert</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <header><i class="bx bx-arrow-back"></i>Weather App</header>
+        <section class="input-city">
+            <p class="info-text"></p>
+            <input type="text" placeholder="Enter City Name" spellcheck="false" required>
+            <div class="median"></div>
+            <button> Get Device Location</button>
+        </section>
+
+        <section class="weather-container">
+            <div class="first">
+                <img src="Images/night-cloud-rain.png" alt="Weather-icon">
+                <div class="temperature">
+                    <span class="temp numb9">_</span>
+                    <span class="temp deg">°</span>F
+                </div>
+                <div class='weather cloud'>_ _</div>
+                <div class="location">
+                    <i class="bx bx-map">
+                        <span>_ , _</span>
+                    </i>
+                </div>
+            </div>
+
+             <!-- <hr class="sec-median"></hr>  -->
+
+           <div class="second">
+            
+            <hr class="sec-median"></hr>
+
+            <div class="date" id="date">
+                <p> Local Date and Time</p>
+                <span id="date" class="date"></span>
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div class="time-zone" id="time-zone">
+                <p> Local Time Zone</p>
+                <span>_</span>
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id="country" class="country">
+                <p>Country</p>
+                <Span>_</Span>
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id="feels" class="feels">
+                <p>Feels Like</p>
+                <span class="numb">_</span>
+                <span class="deg">°</span>F
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id="humidity" class="humidity">
+                <p>Humidity</p>
+                <span class="numb">_</span>
+                <span class="deg">%</span>
+
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id=pressure class="pressure">
+                <p>Pressure</p>
+                <span class="numb">_</span> mB
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id="wind-speed" class="wind-speed">
+                <p>Wind Speed</p>
+                <span class="numb">_</span> MPH
+            </div>
+            <hr class="sec-median"></hr>
+            <div id="sunrise" class="sunrise">
+                <p>Sunrise</p>
+                <span class="numb">_</span> 
+            </div>
+            <hr class="sec-median"></hr>
+            <div id="sunset" class="sunset">
+                <p>Sunset</p>
+                <span class="numb">_</span> 
+            </div>
+            <hr class="sec-median"></hr>
+
+            <div id=cords class="cords">
+                <p>Coordinates</p>
+                <span class="numb">_,_</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
