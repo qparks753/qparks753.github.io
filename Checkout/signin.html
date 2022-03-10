@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <title>Sign In</title>
+    </head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <div>
+            <h3 class="logo">Hayai.</h3>
+        </div>
+        <div>
+        <a href="index.html" class="active">Home</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="docs.html">Docs</a>
+        <a href="signin.html">Sign In</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+       </div>
+    </div>
+
+    <section>
+        <div class="sign-form-container">
+            <form  class= "sign-form" action="action_page.php" method="post">
+                <div class="imgcontainer">
+                  <img src="Images/person.png" alt="Picture of Person" class="avatar">
+                </div>
+               <div>
+                   <h3 style="color: cornflowerblue;">Sign In</h3>
+               </div>
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container-sign" style="background-color:#f1f1f1">
+                  <button type="button" class="signin-google">Sign In With Google</button>
+                  <span class="psw">Sign <a class="psw" href="#">Up</a></span>
+                  <span class="psw">Forgot <a class="psw" href="#">password?</a></span>
+                </div>
+              </form>
+        </div>
+    </section>
+
+    <section>
+        <footer class="footer bg-dark py-5">
+            <div class="f-holder">
+                <div class="footer-info">
+                    <h1>Hayai.
+                    </h1>
+                    <p>Copyright &copy; 2022</p>
+                </div>
+                <div id="footer-info2">
+                    <ul id="menu-index"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Solutions</a></li>
+                        <li><a href="docs.html">Docs</a></li>
+                        <li><a href="signin.html">Sign In</a></li>
+                    </ul>
+                </div>
+                <div id="social-footer" class="footer-info">
+                    <a href="www.github.com"><i class="fab fa-github fa-2x" id="footer1"></i></a>
+                    <a href="www.facebook.com"><i class="fab fa-facebook fa-2x" id="footer1" ></i></a>
+                    <a href="www.instagram.com"><i class="fab fa-instagram fa-2x" id="footer1"></i></a>
+                    <a href="www.twitter.com"><i class="fab fa-twitter fa-2x" id="footer1"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
