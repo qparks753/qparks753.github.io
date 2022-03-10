@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+
+    <div id="board">
+        <h1 id="display"></h1>
+        <h1 id="t">Galaxy Star Tic Tac Toe</h1>
+        <div class="row">
+            <div id=0 class="top left"></div>
+            <div id=1 class="top middle"></div>
+            <div id=2 class="top right"></div>
+        </div>
+
+        <div class="row">
+            <div id=3 class="center left"></div>
+            <div id=4 class="center middle"></div>
+            <div id=5 class="center right"></div>
+        </div>
+
+        <div class="row">
+            <div id=6 class="bottom left"></div>
+            <div id=7 class="bottom middle"></div>
+            <div id=8 class="bottom right"></div>
+        </div>
+
+    </div>
+    <div id="button-container">
+        <button id="restart">restart</button>
+        <audio id="mySound" src="Sounds/Sector.mp3" preload="auto">
+        </audio>
+        <input id="sound" type="button" value="Sound" onclick="toggleSound()" />
+    </div>
+
+    <script src="functionexp.js"></script>
+
+</body>
+
+</html>

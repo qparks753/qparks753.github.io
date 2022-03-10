@@ -1,0 +1,90 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: fonts1;
+}
+
+@font-face {
+    font-family: "fonts1";
+    src: url(fonts/fonts1.otf);
+    font-size: normal;
+    font-weight: 400;
+}
+
+.row>div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 75px;
+    margin-top: 15px;
+}
+
+.row {
+    clear: both;
+    margin: auto;
+    width: 302px;
+    height: 102px;
+}
+
+.top {
+    border-bottom: 1px lightcyan solid;
+}
+
+.bottom {
+    border-top: 1px lightcyan solid;
+}
+
+.left {
+    border-right: 1px lightcyan solid;
+}
+
+.right {
+    border-left: 1px lightcyan solid;
+}
+
+#restart {
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: fonts1;
+}
+
+;
+#t {
+    color: aqua;
+    font-family: fonts1;
+}
+
+;
+#display {
+    color: black solid bold;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 5%;
+    height: 50px
+}
+
+#sound {
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: fonts1;
+}
+
+body {
+    background-image: url("images/space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aqua
+}
+
+;
