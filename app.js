@@ -20,3 +20,4 @@ link2.addEventListener("click",()=>{
     location.href = "/images/Quinton Parks Resume 2022 R.pdf";
 });
 
+
