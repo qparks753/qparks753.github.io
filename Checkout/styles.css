@@ -521,7 +521,7 @@ h3 {
   /* Images-Solutions*/
   /*Features-image1 with overlaying image*/
 .features-image1{
-    background-image: url(Images/Solutions/server.jpg);
+    background-image: url(images/Solutions/server.jpg);
     min-height: 300px;
     max-height: 500px;
     height: 600px;
