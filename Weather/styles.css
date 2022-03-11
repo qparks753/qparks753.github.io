@@ -12,7 +12,7 @@ body{
     justify-content: center;
     min-height:100vh;
     /* background-color: royalblue; */
-    background: url(images/cloud.JPG);
+    background: url(/Weather/Images/cloud.JPG);
     background-repeat: no-repeat;
     background-size: cover;
      background-position: 50% 50%;
