@@ -17,7 +17,7 @@ link1.addEventListener("click", function(){
 
 let link2 = document.querySelector('.resumebtn');
 link2.addEventListener("click",()=>{
-  <!--  location.href = "images/Quinton Parks Resume 2022 .pdf -->
+  //   location.href = "images/Quinton Parks Resume 2022 .pdf; 
      location.href = "images/Quinton Parks Resume 2022 A.pdf";
 });
 
