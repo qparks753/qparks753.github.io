@@ -104,9 +104,19 @@ ul {
     border-bottom: black solid 1px;
     /* margin-bottom: .2rem; */
 }
+/*New Addition to center items aboutme-buttons*/
+.aboutme-buttons{
+    display: flex;
+    justify-content: center;
+}
 .about-me-title{
     text-align: center;
     padding-bottom:2rem;
+}
+/*New Addition to center items aboutme-description*/
+.aboutme-description{
+    display: flex;
+   justify-content: center;
 }
 .resumebtn:hover{
     box-shadow: 10px 10px 0px rgb(39,48,54);
